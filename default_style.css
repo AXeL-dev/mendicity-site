@@ -1,0 +1,240 @@
+/* Default style for mendicité site by AXeL */
+
+/*-------- Font-Faces --------*/
+@font-face {
+  font-family: 'Oxygen';
+  src: url('rsc/fonts/Oxygen.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mastoc';
+  font-weight: bold;
+  src: url('rsc/fonts/Mastoc_PersonalUseOnly.ttf') format('truetype');
+}
+
+/*-------- body --------*/
+body {
+font-family: Oxygen,sans-serif;
+background: #f1f2f2;
+margin: 0;
+direction: ltr; /* left to right */
+}
+
+/*-------- header --------*/
+.header {
+position: fixed;
+top: 0;
+left: 0;
+background: #ffffff;
+color: #204056;
+width: 100%;
+border-bottom: 2px solid #dddddd;
+}
+
+.header h1 {
+margin: 10px 50px;
+font-family: Mastoc;
+font-size: 80px;
+}
+
+.header h1 img {
+vertical-align: bottom;
+}
+
+.header ul {
+//display: inline-block;
+margin-top: 50px;
+}
+
+.header ul li {
+display: inline-block;
+list-style: none;
+margin-right: 10px;
+}
+
+.header ul li a {
+padding: 5px 15px;
+text-decoration: none;
+//background: #f1f2f2;
+color: #204056;
+border-radius: 5px;
+font-weight: bold;
+}
+
+.header ul li a img {
+vertical-align: middle;
+margin: 0 5px 9px;
+}
+
+.header ul li a:hover {
+background: #204056;
+color: #f1f2f2;
+}
+
+#selected_li {
+background: #204056;
+color: #f1f2f2;
+}
+
+/*-------- langue_list --------*/
+#langue_list {
+float: right;
+margin: 5px 10px;
+}
+
+.spacer {
+margin-left: -8px;
+}
+
+/* ou autrement :
+li + li:before {
+content: " | ";
+}
+*/
+
+#langue_list li {
+border-radius: 5px;
+padding: 0 10px;
+}
+
+#langue_list li:hover {
+background: #204056;
+color: #f1f2f2;
+cursor: pointer;
+}
+
+/*-------- body_middle --------*/
+.body_middle {
+width: 1000px;
+//height: auto;
+margin: 122px auto 0 auto; /* car la hauteur du header est 122 px */
+background: #ffffff;
+padding: 15px;
+}
+
+.body_middle h1 {
+margin: 0;
+text-decoration: underline;
+font-size: 30px;
+color: #204056;
+}
+
+/*-------- acceuil --------*/
+
+.article {
+display: inline-block;
+width: 100%;
+}
+
+.fr {
+float: left;
+}
+
+.ar {
+display: none;
+float: right;
+}
+
+.article img {
+width: 48%;
+height: 320px;
+padding: 5px;
+border: 1px solid #dddddd;
+border-radius: 5px;
+margin: 5px 0 0 5px;
+}
+
+.article p {
+width: 45%;
+}
+
+.article p, a {
+padding: 0 15px;
+}
+
+.article h2 {
+width: 100%;
+text-align: center;
+margin: 5px;
+}
+
+.article video {
+display: block;
+margin: auto;
+}
+
+/*-------- caricature, anti-mendicite, aidons-les --------*/
+#caricature, #anti-mendicite, #aidons-les {
+display: none;
+text-align: center;
+border: 1px solid #dddddd;
+}
+
+#caricature img , #anti-mendicite img, #aidons-les img {
+border: 1px solid #204056;
+margin: 10px;
+vertical-align: middle;
+}
+
+#footer_images img, #caricature img , #anti-mendicite img, #aidons-les img {
+float: none; /* pour annuler le float de la class fr et ar */
+}
+
+/*-------- footer --------*/
+.footer {
+background: #204056;
+color: #f1f2f2;
+width: 100%;
+display: inline-block;
+}
+
+.footer img {
+margin: 15px 30px;
+width: 21%;
+height: 180px;
+border-radius: 10px;
+}
+
+#footer_images img:hover {
+-webkit-transform: scale(1.1,1.1);
+-moz-transform: scale(1.1,1.1);
+}
+
+.footer h1 {
+font-family: Mastoc;
+margin-top: 100px;
+width: 38%;
+text-align: center;
+}
+
+.footer h1 span {
+font-family: Oxygen;
+font-size: 20px;
+}
+
+.footer #logo {
+width: 64px;
+height: 50px;
+vertical-align: bottom;
+margin: 0;
+}
+
+.footer a {
+font-family: Mastoc;
+font-size: 25px;
+color: #f1f2f2;
+text-decoration: none;
+}
+
+.footer a:hover {
+text-decoration: underline;
+}
+
+#design_fr {
+float: right;
+}
+
+#design_ar {
+float: left;
+}
+

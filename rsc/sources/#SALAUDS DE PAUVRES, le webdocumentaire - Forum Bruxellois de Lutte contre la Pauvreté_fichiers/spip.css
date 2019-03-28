@@ -1,0 +1,566 @@
+.spip_forms form label {
+	float:none;
+}
+.spip_forms h2 {
+	margin:.2em;
+	color:#543E29;
+}
+.spip_forms {
+	color: black;
+	margin: 0px;
+	margin-bottom: 16px;
+	padding: 6px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	border-left: 3px solid #963;
+}
+.spip_forms form {
+	border:0;
+	margin:0;
+	padding:.5em 0 0 0;
+}
+.spip_forms div.spip_descriptif {
+	border:0;
+	margin:0;
+	clear:both;
+}
+.spip_forms h3 {
+	float:none;text-align:left;
+}
+.spip_forms legend {
+	font-size:1.15em;
+	padding:5px;
+}
+.spip_forms .spip_form_champ {
+	margin-bottom: 0;
+	display: block;
+	clear: both;
+	margin-top: 1em;
+}
+.spip_forms .spip_form_label {
+  	font-weight: bold;
+  	text-align:left;
+  	color:#494949;
+	display: block;
+}
+.spip_forms .spip_form_label label,
+.spip_forms .spip_form_label .label {
+	text-align:left;
+  	font-weight: bold;
+  	color:#494949;
+}
+.spip_forms .spip_form_label_obligatoire {
+	font-weight: normal;
+	font-style:italic;
+	font-size:.9em;
+}
+.spip_forms .obligatoire_oublie {
+	color:red;
+}
+.spip_forms .spip_form_label_details{
+	display:block;
+	font-style:italic;
+	text-align:left;
+}
+
+.spip_forms .spip_form_choix_multiple {
+	display:block;
+}
+
+.spip_forms .spip_form_choix_unique input, .spip_forms .spip_form_choix_unique input.fondo, .spip_forms .spip_form_choix_unique input.fondl {
+	width:auto;
+}
+
+.spip_forms .spip_form_choix_unique label {
+	margin:0 0 5px 0;
+}
+
+.spip_forms .spip_form_choix_multiple input, .spip_forms .spip_form_choix_multiple input.fondo, .spip_forms .spip_form_choix_multiple input.fondl, ul.choix_mots li input {
+	width:auto;
+	margin:0 5px 0 0;
+}
+.spip_forms ul.choix_mots,.spip_forms ul.spip_form_choix_multiple,.spip_forms ul.spip_form_choix_unique{
+list-style:none;float:left;padding-left:5px;width:45%;
+}
+
+.spip_forms .spip_sondage {
+	margin: auto;
+}
+
+.spip_forms .spip_form_erreur {
+	font-weight:bold;
+	color:red;
+}
+.spip_forms .spip_form_ok {
+	font-weight: bold;
+	background:#262626;
+	color:#F1F1F1;
+	margin: 1em 0 0 0;
+	padding: .6em;
+}
+.spip_forms .spip_form_ok a {
+	color:#FFF9E2;
+}
+.spip_forms .spip_form_ok a:hover {
+	color:#DEB55E;
+}
+.spip_forms .spip_form_ok_confirmation{
+	display:block;
+}
+.spip_forms .spip_sondage strong {
+	display:block;
+	clear:both;
+	margin-left:5px;
+	color:#494949;
+}
+.spip_forms .spip_sondage .ligne_nom {
+	width:19%;
+	text-align:right;
+	padding-right:1%;
+}
+.spip_forms .spip_sondage .ligne_nom:after {
+	content:" :";
+}
+.spip_forms .spip_sondage .ligne.chiffres {
+	color:#525252;
+}
+.spip_forms .spip_sondage .ligne_barre {
+	height: 16px;
+	background: url(ligne.gif) repeat-x;
+	border: 1px solid black;
+	width:80%;
+}
+.spip_forms .spip_sondage .sondage_table {
+	display: table;
+	width:100%;
+}
+.spip_forms .spip_sondage .sondage_ligne {
+	display: table-row;
+}
+.spip_forms .spip_sondage .sondage_ligne > div {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 2px;
+	white-space: nowrap;
+}
+.spip_forms .forml, .spip_forms .formo {
+	width:85%;
+	border-bottom:solid 1px #E2CEC1;
+	border-right:solid 1px #E2CEC1;
+	border-top:1px solid #AF896F;
+	border-left:1px solid #AF896F;
+	font-size:1em;
+	padding:.25em;
+}
+.spip_forms .forml, .spip_forms .fondl {
+	background: #FFFDE7;
+	color:#4A4336;
+	width:85%;
+}
+.spip_forms .formo, .spip_forms .fondo {
+	background-color: white;
+	color:#4A4336;
+	width:85%;
+}
+.spip_forms .champ_obli_oubli {
+	border:2px solid red;
+}
+.spip_forms form .forml-focus, .spip_forms form input.forml-focus:focus, .spip_forms form textarea.forml-focus:focus, .forml-focus {
+	border-bottom:solid 1px #C9AB97;
+	border-right:solid 1px #C9AB97;
+	border-top:1px solid #81593E;
+	border-left:1px solid #81593E;
+	background: #FFF2C8;
+	color:#433817;
+	font-weight:normal;
+	font-size:1em;
+	padding:.25em;
+	width:85%;
+}
+.spip_forms form .formo-focus, .spip_forms form input.formo-focus:focus, .spip_forms form textarea.formo-focus:focus, .spip_forms .formo-focus {
+	border-bottom:solid 1px #C9AB97;
+	border-right:solid 1px #C9AB97;
+	border-top:1px solid #81593E;
+	border-left:1px solid #81593E;
+	background:#FFF9EE ;
+	color:#433817;
+	font-weight:normal;
+	font-size:1em;
+	padding:.25em;
+	width:85%;
+}
+.spip_forms form .champ_obli_oubli-focus, form input.champ_obli_oubli-focus:focus, form textarea.champ_obli_oubli-focus:focus {
+	border-top:solid 2px #980F1B;
+	border-left:solid 2px #980F1B;
+	border-bottom:2px solid #F3192B;
+	border-right:2px solid #F3192B;
+	background: #FFF2C8;
+	color:#4D161B;
+	font-weight:normal;
+	font-size:1em;
+	padding:.25em;
+}
+.spip_forms .spip_bouton input {
+	border: 1px solid #563033;
+	cursor:pointer;
+	padding:.4em;
+	background:#F0E6DC;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:1em;
+	width:100px ;
+	color:#4A4336;
+}
+.spip_forms fieldset {
+	border: 1px none #8F8181;
+	padding: .4em .4em .4em 1em;
+	margin:.5em 0 .5em 0;
+	border-top-style: dashed;
+	border-left: 6px solid #c96;
+	border-top-color: #c96;
+}
+.spip_forms a.resultats_sondage {
+	display:block;
+	float:right;
+	background:#FFFBED;
+	color:#444040;
+	padding:.2em;
+	border:1px solid #A07D7A;
+	text-decoration:none;
+}
+.spip_forms a.resultats_sondage:hover {
+	background:#444040;
+	color:#F8F5EC;
+	text-decoration:none;
+}
+.spip_forms p.spip_form_ok, .spip_forms p.spip_form_erreur, .spip_forms form {
+	clear:both;
+}
+span.nettoyeur{
+	clear:both;line-height:1px;font-size:1px;display:block;
+}
+span.erreur { display:block;}
+span.donnees{
+	display: block;
+	border-left: 5px solid #999;
+	padding-left: 1em;
+	padding-top: 1em;
+	border-bottom: 1px dashed #666;
+	padding-bottom: 0.4em;
+	overflow:hidden;	
+}
+
+span.donnee-champ {
+	display: block;
+	clear: left;
+}
+span.donnee-champ-label {
+	width: 150px;
+	display: block;
+	float: left;
+}
+
+span.donnee-champ-data {
+	display: block;
+	margin-left: 160px;
+}
+span.nettoyeur{
+	clear: both;
+}
+
+div.liste { clear:both;width:auto; }
+.highlight {
+	background-color: #3D3D3D;
+	font-weight: bold;
+}
+.donnees th {
+	vertical-align:middle;
+	background-repeat: no-repeat;
+	border-left: 1px solid #FFF;
+	border-right: 1px solid #000;
+	border-top: 1px solid #FFF;
+	height: auto;
+	padding:0px;
+	margin:0px;
+	height:34px;
+}
+.donnees th.neutre {padding-left: 0px;background: url("http://www.fblp.be/plugins/auto/forms_et_tables_2_0/img_pack/header.png") repeat-x left bottom;	}
+.donnees th.header {padding-left: 15px;background: url("http://www.fblp.be/plugins/auto/forms_et_tables_2_0/img_pack/header-bg.png") no-repeat left bottom;	}
+.donnees th.headerSortUp {padding-left: 15px;background: url("http://www.fblp.be/plugins/auto/forms_et_tables_2_0/img_pack/header-asc.png") no-repeat left bottom;	}
+.donnees th.headerSortDown {padding-left: 15px;background: url("http://www.fblp.be/plugins/auto/forms_et_tables_2_0/img_pack/header-desc.png") no-repeat left bottom;}
+
+.donnees td .numerique {width:100%; text-align:right;display:block;}
+#sorting div {
+	font-weight: bold;
+}
+#filter {
+	text-align: left;
+	width: auto;
+	padding: 5px;
+	background-color: transparent;
+	border: 1px solid #888;
+	display: none;
+	float: right;
+}
+#filter input {
+}
+#filter p {
+	text-align: left;
+	padding: 5px;
+	margin:0px;
+	float: left;
+}
+#filter div {
+	text-align: center;
+	float: left;
+}
+
+.filterIcon {
+	width: 20px;
+	height: 16px;
+	text-align: center;
+	background: url("http://www.fblp.be/plugins/auto/forms_et_tables_2_0/filter.gif") no-repeat center left; 
+	float: right;
+	cursor: pointer;
+}
+.sorter {
+	padding-right: 10px;
+	text-decoration: underline;
+	cursor: pointer;
+	float:left;	
+}
+
+
+div.puce_forms_donnee {
+	position: relative; 
+	height: 11px; 
+	width: 11px;
+}
+
+div.puce_forms_donnee_fixe {
+	position: absolute;
+}
+
+div.puce_forms_donnee_popup {
+	position: absolute;
+	visibility: hidden;
+	margin-top: -1px; top: 0; 
+	border: 1px solid #666; 
+	background-color: #ccc; z-index: 10; 
+}
+div.puce_forms_donnee_popup img {
+	padding: 1px;
+	border: none;
+}
+
+div.puce_forms_donnee_popup {
+	width: 45px; 
+}
+
+/* Date picker specific styles follow */
+
+a.date-picker {
+	width: 26px;
+	height: 26px;
+	border: none;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	float: left;
+	overflow: hidden;
+	cursor: pointer;
+	background: url("http://www.fblp.be/plugins/auto/forms_et_tables_2_0/img_pack/select_day_26.gif") no-repeat; 
+}
+a.date-picker span {
+	margin: 0 0 0 -2000px;
+}
+div.date-picker-holder {
+	position: relative;
+}
+div.date-picker-holder input {
+	float: left;
+}
+div.popup-calendar * {
+	margin: 0;
+	padding: 0;
+}
+div.popup-calendar {
+	display: none;
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: -16px; /* value for IE */
+	padding: 4px;
+	border: 2px solid #000;
+	background: #fff;
+	color: #000;
+	overflow:hidden;
+	width: 163px;
+	font-size:0.8em;
+}
+html>body div.popup-calendar {
+	left: 99px; /* value for decent browsers */
+}
+div.popup-calendar iframe
+{
+	display:none;/*sorry for IE5*/
+	display/**/:block;/*sorry for IE5*/
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-1;
+	filter:mask();
+	width:3000px;
+	height:3000px;
+}
+div.popup-calendar div.link-close {
+	float: right;
+}
+div.popup-calendar div.link-prev {
+	float: left;
+}
+div.popup-calendar h3 {
+	font-size: 1.1em;
+	font-weight:bold;
+	margin: 2px 0 5px 3px;
+}
+div.popup-calendar div.link-next {
+	float: right;
+}
+div.popup-calendar div a {
+	padding: 1px 2px;
+	color: #000;
+}
+div.popup-calendar div a:hover {
+	background-color: #000;
+	color: #fff;
+}
+div.popup-calendar table {
+	margin: 0;
+}
+* html div.popup-calendar table {
+	display: inline;
+}
+div.popup-calendar table th, div.popup-calendar table td {
+	background: #eee;
+	width: 21px;
+	height: 17px;
+	text-align: center;
+}
+div.popup-calendar table td.inactive {
+	color: #aaa;
+	padding: 1px 0 0;
+}
+div.popup-calendar table td a {
+	display: block;
+	border: 1px solid #eee;
+	width: 19px;
+	height: 15px;
+	text-decoration: none;
+	color: #333;
+}
+div.popup-calendar table td.today a {
+	border-color: #aaa;
+}
+div.popup-calendar table td a.selected, div.popup-calendar table td a:hover {
+	background: #333; 
+	color: #fff;
+}
+/* - - - - - - CSS Document - - - - - - - - -
+
+Title : Global style sheet for client-side web development
+Author : Cody Lindley 
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+.formInfo a, .formInfo a:active, .formInfo a:visited{
+	background-color: #f66;
+	font-size: 1.3em;
+	font-weight:bold;
+	padding:1px 2px;
+	margin-left:5px;
+	color:#FFFFFF;
+	text-decoration: none;
+	float: right;
+}
+
+.formInfo a:hover{
+	color:#660000;
+	text-decoration: none;
+}
+
+/* ---------->>> jtip <<<---------------------------------------------------------------*/
+
+#JT_arrow_left{
+	background-image: url("http://www.fblp.be/plugins/auto/forms_et_tables_2_0/img_pack/arrow_left.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: absolute;
+	z-index:101;
+	left:-12px;
+	height:23px;
+	width:10px;
+    top:-3px;
+}
+
+#JT_arrow_right{
+	background-image: url("http://www.fblp.be/plugins/auto/forms_et_tables_2_0/img_pack/arrow_right.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: absolute;
+	z-index:101;
+	height:23px;
+	width:11px;
+    top:-2px;
+}
+
+#JT {
+	position: absolute;
+	z-index:100;
+	border: 2px solid #CCCCCC;
+	background-color: #fff;
+}
+
+#JT_copy{
+	padding:10px 10px 10px 10px;
+	color:#333333;
+}
+
+.JT_loader{
+	background-image: url("http://www.fblp.be/plugins/auto/forms_et_tables_2_0/img_pack/loader.gif");
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:100%;
+	height:12px;
+}
+
+#JT_close_left{
+	background-color: #CCCCCC;
+	text-align: left;
+	padding-left: 8px;
+	padding-bottom: 5px;
+	padding-top: 2px;
+	font-weight:bold;
+}
+
+#JT_close_right{
+	background-color: #CCCCCC;
+	text-align: left;
+	padding-left: 8px;
+	padding-bottom: 5px;
+	padding-top: 2px;
+	font-weight:bold;
+}
+
+#JT_copy p{
+margin:3px 0;
+}
+
+#JT_copy img{
+	padding: 1px;
+	border: 1px solid #CCCCCC;
+}
+
+.jTip{
+cursor:help;
+}

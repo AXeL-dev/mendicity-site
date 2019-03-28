@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- Mendicité site version 1.0 by AXeL
+     Date de création : 08/11/2014
+     Date de la dernière modification: 10/11/2014
+-->
+<html>
+	<head>
+		<title>La mendicité</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="default_style.css" />
+	</head>
+	
+	<body>
+		<!-- header -->
+		<div class="header">
+			<h1 class="fr"><img src="rsc/logo.png" />La mendicité</h1>
+			<h1 class="ar"><img src="rsc/logo.png" />التسول</h1>
+			<!-- nav_bar_fr -->
+			<ul class="fr">
+				<li><a href="#acceuil" id="selected_li"><img src="rsc/home.png" />Acceuil</a></li>
+				<li><a href="#caricature">Caricature</a></li>
+				<li><a href="#anti-mendicite">Anti-mendicité</a></li>
+				<li><a href="#aidons-les">AIDONS-LES</a></li>
+			</ul>
+			<!-- nav_bar_ar -->
+			<ul class="ar">
+				<li><a href="#acceuil" id="selected_li"><img src="rsc/home.png" />الصفحة الرئيسية</a></li>
+				<li><a href="#caricature">كاريكاتير</a></li>
+				<li><a href="#anti-mendicite">مكافحة التسول</a></li>
+				<li><a href="#aidons-les">فل نساعدهم</a></li>
+			</ul>
+			<!-- langue_nav_bar -->
+			<ul id="langue_list">
+				<li id="cur_langue">fr</li>
+				<span class="spacer">|</span>
+				<li>ar</li>
+			</ul>
+		</div>
+		<!-- body_middle -->
+		<div class="body_middle">
+			<!-- Acceuil -->
+			<div class="body_container" id="acceuil">
+				<h1 class="fr">À La Une</h1>
+				<h1 class="ar">في المقدمة</h1>
+				<div class="article">
+					<h2 class="fr">
+La réaction des gens quand un jeune affamé leur demande de la nourriture
+					</h2>
+					<h2 class="ar">
+رد فعل الناس حينما يطلب منهم شاب جائع الطعام
+					</h2>
+					<video id="vid_fr" controls poster="rsc/images/poster_1.png">
+						<source src="rsc/videos/Asking_Strangers_For_Food_Social_Experiment.mp4" type="video/mp4" />
+						<!-- Sous-titres fr -->
+						<track kind="subtitles" srclang="fr" label="Français" src="rsc/videos/subtitles-fr.vtt" default />
+					</video>
+					<video id="vid_ar" controls poster="rsc/images/poster_1.png">
+						<source src="rsc/videos/Asking_Strangers_For_Food_Social_Experiment.mp4" type="video/mp4" />
+						<!-- Sous-titres ar -->
+						<track kind="subtitles" srclang="ar" label="Arabe" src="rsc/videos/subtitles-ar.vtt" default />
+					</video>
+				</div>
+				<h1 class="fr">Mendiant ?</h1>
+				<h1 class="ar">تسول ؟</h1>
+				<div class="article">
+					<img class="fr" src="rsc/images/image_1.jpg" />
+					<!-- sans ça je me retrouve avec une img tj à droite -->
+					<img class="ar" src="rsc/images/image_1.jpg" />
+					<p class="fr">
+Un mendiant est une personne qui vit matériellement d'aumônes, ou de l’argent ou de la nourriture donnée par charité.<br />Le mendiant est habituellement sans domicile fixe et se déplace dans la campagne ou dans une ville qui est devenue son territoire. Les enfants peuvent mendier, seuls ou en compagnie d’adultes. Certains artistes de rue font appel à la générosité publique, sans être considérés généralement comme mendiants.
+					</p>
+					<p class="ar">
+التسول هو طلب مال، أو طعام، أو المبيت من عموم الناس باستجداء عطفهم وكرمهم إما بعاهات أو بسوء حال أو بالأطفال، بغض النظر عن صدق المتسولين أو كذبهم، وهي ظاهرة أوضح أشكالها تواجد المتسولين على جنبات الطرقات والأماكن العامة الأخرى. ويلجأ بعض المتسولين إلى عرض خدماتهم التي لا حاجة لها غالبا مثل مسح زجاج السيارة أثناء التوقف على الإشارات أو حمل أكياس إلى السيارة وغير ذلك. "من مال الله يا محسنين"، "حسنة قليلة تدفع بلايا كثيرة" وغيرها من كلمات المستعملة من المتسولين لاستدراج عطف وكرم الآخرين.
+					</p>
+					<br />
+					<a class="fr" href="#">Source : Wikipédia</a>
+					<a class="ar" href="#">المصدر : ويكيبيديا</a>
+				</div>
+				<h1 class="fr">Mendicité en images</h1>
+				<h1 class="ar">تسول بالصور</h1>
+				<div class="article" id="mendicite-en-images">
+				</div>
+			</div>
+			<!-- Caricature -->
+			<div id="caricature">
+			</div>
+			<!-- Anti-mendicité -->
+			<div id="anti-mendicite">
+			</div>
+			<!-- AIDONS-LES -->
+			<div id="aidons-les">
+			</div>
+		</div>
+		<!-- footer -->
+		<div class="footer">
+			<h1 class="fr"><img id="logo" src="rsc/logo.png" />La mendicité © <span>2014</span></h1>
+			<h1 class="ar"><img id="logo" src="rsc/logo.png" />التسول © <span>2014</span></h1>
+			<!-- footer_images -->
+			<span id="footer_images"></span>
+			<a class="fr" id="design_fr" href="#">Design & Code by : AXeL</a>
+			<a class="ar" id="design_ar" href="#">تصميم : AXeL</a>
+		</div>
+		<!-- javascript link -->
+		<script src="default_script.js"></script>
+	</body>
+</html>
